@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="score">
+      <div class="container">
+        <div id="scorenumber">0</div>
+      </div>
+      <div class="button">
+        <button onclick="counter1()" class="buttons">+1</button>
+        <button onclick="counter2()" class="buttons2">+2</button>
+        <button onclick="counter3()" class="buttons3">+3</button>
+      </div>
+    </div>
+    <!-- ----Container 1 fertig----- -->
+    <div class="score2">
+      <div class="container">
+        <div id="scorenumber2">0</div>
+      </div>
+      <div class="button">
+        <button onclick="counter4()" class="buttonsaway">+1</button>
+        <button onclick="counter5()" class="buttonsaway1">+2</button>
+        <button onclick="counter6()" class="buttonsaway2">+3</button>
+      </div>
+    </div>
+    <!-- -----Container 2 fertig------ -->
+    <div class="buttonreset">
+      <button onclick="counterreset()" id="reset">Reset</button>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2C2C2C;
+}
+
+.score {
+display:inline-block;
+border: 5px solid #97F5BB;
+box-sizing: border-box;
+border-radius: 40px;
+width: 489px;
+height: 489px;
+margin-top: 123px;
+margin-left: 155px;
+background-image:url(../img/Home.png);
+background-repeat: no-repeat;
+background-position: bottom ;
+}
+
+.score2 {
+    display:inline-block;
+    border: 5px solid #525DF4;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 489px;
+    height: 489px;
+    margin-top: 123px;
+    margin-left: 155px;
+    background-image:url(../img/Away.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    }
+.container {
+background-color: black;
+border-radius: 30px;
+margin-top: 50px;
+margin-left: 37px;
+margin-right: 37px;
+}
+#scorenumber {
+font-family: 'Orbitron';
+font-style: normal;
+color: #FDF860;
+font-weight: 400;
+font-size: 150px;
+padding-top: 150px;
+padding-left: 132px;
+
+
+
+
+
+
+}
+
+#scorenumber2 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    color: #FDF860;
+    font-weight: 400;
+    font-size: 150px;
+    padding-top: 150px;
+    padding-left: 132px;
+    
+    
+    
+    }
+
+.button {
+    
+    margin-left: 50px;
+    margin-top: 220px;
+    width: 390px;
+    
+    
+}
+
+
+.buttons {
+display: inline-block;
+background: #97F5BB;
+border-radius: 20px;
+width: 105px;
+height: 105px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.buttons2 {
+    display: inline-block;
+    background: #97F5BB;
+    border-radius: 20px;
+    width: 105px;
+    height: 105px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    }
+    .buttons3 {
+        display: inline-block;
+        background: #97F5BB;
+        border-radius: 20px;
+        width: 105px;
+        height: 105px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 37px;
+        text-align: center;
+        color: #FFFFFF;
+        
+        }
+.buttonsaway {
+display: inline-block;
+background: #525DF4;
+border-radius: 20px;
+width: 105px;
+height: 105px;
+left: 350px;
+top: 749px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+text-align: center;
+color: #FFFFFF;
+}
+.buttonsaway1 {
+    display: inline-block;
+    background: #525DF4;
+    border-radius: 20px;
+    width: 105px;
+    height: 105px;
+    left: 350px;
+    top: 749px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .buttonsaway2 {
+        display: inline-block;
+        background: #525DF4;
+        border-radius: 20px;
+        width: 105px;
+        height: 105px;
+        left: 350px;
+        top: 749px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 37px;
+        text-align: center;
+        color: #FFFFFF;
+        }
+.buttons2 {
+margin-left: 25px;
+margin-right: 25px;
+
+}
+.buttonsaway1 {
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    }
+#reset {
+width: 122px;
+height: 39px;
+left: 659px;
+top: 936px;
+background: #FFFFFF;
+border-radius: 10px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #2C2C2C;
+
+}
+.buttonreset {
+    margin-top: 140px;
+    margin-left: 650px;
+}
